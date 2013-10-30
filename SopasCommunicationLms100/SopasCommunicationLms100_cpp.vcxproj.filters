@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\CommonSopas">
+      <UniqueIdentifier>{c205bb26-b61e-4951-9c29-092d17ea3cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Communication">
+      <UniqueIdentifier>{1830a8f3-3a42-4757-99f9-b207b2f2a87e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Framer">
+      <UniqueIdentifier>{779e2ceb-8473-4b6f-803c-6537ac307d10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Protocol">
+      <UniqueIdentifier>{0baade08-3914-4566-acd5-b1c1df879a9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\LMS100">
+      <UniqueIdentifier>{58b707e0-3a2f-4f0d-88c2-63a96e5bc962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\CommonSopas">
+      <UniqueIdentifier>{7efd86a6-d1ba-42d7-aef6-59ea6c3e307e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Communication">
+      <UniqueIdentifier>{72174e13-d296-42c5-9545-a1fa774ee2b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Framer">
+      <UniqueIdentifier>{23c66d74-4fbf-4f19-914b-d354f3f87912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\LMS100">
+      <UniqueIdentifier>{3a666865-5e69-4eb1-b481-bbdca2fa5032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Protocol">
+      <UniqueIdentifier>{8927f35c-a517-4b89-8762-add443314ad3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\SopasCommunication\Source\BinaryDataStream.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main_NoComm.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SopasCommunication\Source\CommonSopas\SopasInterface.cpp">
+      <Filter>Quelldateien\CommonSopas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SopasCommunication\Source\CommonSopas\SopasLoginLevel.cpp">
+      <Filter>Quelldateien\CommonSopas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SopasCommunication\Source\CommonSopas\SopasString.cpp">
+      <Filter>Quelldateien\CommonSopas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SopasCommunication\Source\CommonSopas\SopasXByte.cpp">
+      <Filter>Quelldateien\CommonSopas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SopasCommunication\Source\Communication\CommunicationHandler.cpp">
+      <Filter>Quelldateien\Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SopasCommunication\Source\Communication\DecodedAnswer.cpp">
+      <Filter>Quelldateien\Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SopasCommunication\Source\Framer\SopasAsciiFramer.cpp">
+      <Filter>Quelldateien\Framer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SopasCommunication\Source\Framer\SopasBinaryFramer.cpp">
+      <Filter>Quelldateien\Framer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SopasCommunication\Source\Protocol\AsciiDeserializer.cpp">
+      <Filter>Quelldateien\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SopasCommunication\Source\Protocol\AsciiSerializer.cpp">
+      <Filter>Quelldateien\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SopasCommunication\Source\Protocol\BinaryDeserializer.cpp">
+      <Filter>Quelldateien\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SopasCommunication\Source\Protocol\BinarySerializer.cpp">
+      <Filter>Quelldateien\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SopasCommunication\Source\Protocol\ColaAProtocol.cpp">
+      <Filter>Quelldateien\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SopasCommunication\Source\Protocol\ColaBProtocol.cpp">
+      <Filter>Quelldateien\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SopasCommunication\Source\Protocol\Deserializer.cpp">
+      <Filter>Quelldateien\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SopasCommunication\Source\Protocol\Protocol.cpp">
+      <Filter>Quelldateien\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SopasCommunication\Source\Protocol\Serializer.cpp">
+      <Filter>Quelldateien\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lms100Scan.cpp">
+      <Filter>Quelldateien\LMS100</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lms100ScanConfig.cpp">
+      <Filter>Quelldateien\LMS100</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lms100ScanDataConfig.cpp">
+      <Filter>Quelldateien\LMS100</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lms100SopasInterface.cpp">
+      <Filter>Quelldateien\LMS100</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lms100State.cpp">
+      <Filter>Quelldateien\LMS100</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\SopasCommunication\Include\BinaryDataStream.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\doxygen_doc.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\SopasBasicTypes.h">
+      <Filter>Headerdateien\CommonSopas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\SopasFlexArray.h">
+      <Filter>Headerdateien\CommonSopas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\SopasInterface.h">
+      <Filter>Headerdateien\CommonSopas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\SopasLoginLevel.h">
+      <Filter>Headerdateien\CommonSopas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\SopasString.h">
+      <Filter>Headerdateien\CommonSopas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\SopasXByte.h">
+      <Filter>Headerdateien\CommonSopas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\Communication.h">
+      <Filter>Headerdateien\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\CommunicationHandler.h">
+      <Filter>Headerdateien\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\DecodedAnswer.h">
+      <Filter>Headerdateien\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\Framer.h">
+      <Filter>Headerdateien\Framer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\SopasAsciiFramer.h">
+      <Filter>Headerdateien\Framer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\SopasBinaryFramer.h">
+      <Filter>Headerdateien\Framer</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lms100Scan.h">
+      <Filter>Headerdateien\LMS100</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lms100ScanConfig.h">
+      <Filter>Headerdateien\LMS100</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lms100ScanDataConfig.h">
+      <Filter>Headerdateien\LMS100</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lms100SopasInterface.h">
+      <Filter>Headerdateien\LMS100</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lms100State.h">
+      <Filter>Headerdateien\LMS100</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\AsciiDeserializer.h">
+      <Filter>Headerdateien\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\AsciiParser.h">
+      <Filter>Headerdateien\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\AsciiSerializer.h">
+      <Filter>Headerdateien\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\BinaryDeserializer.h">
+      <Filter>Headerdateien\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\BinarySerializer.h">
+      <Filter>Headerdateien\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\ColaAProtocol.h">
+      <Filter>Headerdateien\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\ColaBProtocol.h">
+      <Filter>Headerdateien\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\Deserializer.h">
+      <Filter>Headerdateien\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\Protocol.h">
+      <Filter>Headerdateien\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SopasCommunication\Include\Serializer.h">
+      <Filter>Headerdateien\Protocol</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

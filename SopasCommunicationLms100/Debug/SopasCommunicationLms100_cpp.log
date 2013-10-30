@@ -1,0 +1,9 @@
+﻿Build started 10/30/2013 4:35:57 PM.
+     1>Project "D:\sicksource\C++\SopasCommunication\SopasCommunicationLms100\SopasCommunicationLms100_cpp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\SopasCommunication\Include /IInclude /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt ..\SopasCommunication\Source\BinaryDataStream.cpp Source\Main_NoComm.cpp ..\SopasCommunication\Source\CommonSopas\SopasInterface.cpp ..\SopasCommunication\Source\CommonSopas\SopasLoginLevel.cpp ..\SopasCommunication\Source\CommonSopas\SopasString.cpp ..\SopasCommunication\Source\CommonSopas\SopasXByte.cpp ..\SopasCommunication\Source\Communication\CommunicationHandler.cpp ..\SopasCommunication\Source\Communication\DecodedAnswer.cpp ..\SopasCommunication\Source\Framer\SopasAsciiFramer.cpp ..\SopasCommunication\Source\Framer\SopasBinaryFramer.cpp ..\SopasCommunication\Source\Protocol\AsciiDeserializer.cpp ..\SopasCommunication\Source\Protocol\AsciiSerializer.cpp ..\SopasCommunication\Source\Protocol\BinaryDeserializer.cpp ..\SopasCommunication\Source\Protocol\BinarySerializer.cpp ..\SopasCommunication\Source\Protocol\ColaAProtocol.cpp ..\SopasCommunication\Source\Protocol\ColaBProtocol.cpp ..\SopasCommunication\Source\Protocol\Deserializer.cpp ..\SopasCommunication\Source\Protocol\Protocol.cpp ..\SopasCommunication\Source\Protocol\Serializer.cpp Source\Lms100Scan.cpp Source\Lms100ScanConfig.cpp Source\Lms100ScanDataConfig.cpp Source\Lms100SopasInterface.cpp Source\Lms100State.cpp
+     1>Done Building Project "D:\sicksource\C++\SopasCommunication\SopasCommunicationLms100\SopasCommunicationLms100_cpp.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.23
